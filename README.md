@@ -26,10 +26,10 @@ Checks if the entered passwd/shadow linux command has a valid syntax
 8. Expiry days = Only integers allowed (Optional)
 
 ## III) Notes:
--> If fields are left empty, for eg, root::::::, it is still a valid format
--> If the file exists, but is empty, the format check still returns success
--> This program doesnt make sure the usernames in passwd and shadow match i.e,
+* If fields are left empty, for eg, root::::::, it is still a valid format
+* If the file exists, but is empty, the format check still returns success
+* This program doesnt make sure the usernames in passwd and shadow match i.e,
 any pwconv command functionalities
--> Assuming the txt files scanned have less than 1000 lines, functions in this
+* Assuming the txt files scanned have less than 1000 lines, functions in this
 program return 1000 on success, and -1 on failure
 
